@@ -650,9 +650,10 @@ GameObject:
   - component: {fileID: 752317350}
   - component: {fileID: 752317355}
   - component: {fileID: 752317356}
+  - component: {fileID: 752317357}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -669,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: ee20d8e4b4ff70647bbbaefc7c7522dd, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: fe0fc2f16fabcaf40ad4b4874162552d, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -812,8 +813,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67c1dbf85ba6fcd47ba6c3f3ee07a18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &752317357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752317349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a32f71cfff4a3b4abed39d666c2d91e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   moveValue: {x: 0, y: 0}
-  speed: 1000
+  speed: 500
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,6 +839,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -917,6 +931,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f242e36119fe6f84b81ab315d363afae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c9c80f348458942830ba50df0186aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 752317349}
