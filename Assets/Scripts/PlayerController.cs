@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public float speed;
     private int count;
-    private int numPickups = 8;
+    private int numPickups = 3;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI winText;
 
