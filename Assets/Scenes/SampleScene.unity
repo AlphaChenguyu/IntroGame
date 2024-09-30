@@ -1221,6 +1221,8 @@ MonoBehaviour:
   speed: 500
   scoreText: {fileID: 746095045}
   winText: {fileID: 630140412}
+  playerPosition: {fileID: 1409886973}
+  playerVelocity: {fileID: 1061212588}
 --- !u!1 &896972304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,8 +1537,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 20, y: 10.900024}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -9.299988, y: 10.900024}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1061212588
 MonoBehaviour:
@@ -1766,8 +1768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 20, y: 55.900024}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -9.300049, y: 55.900024}
+  m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1409886973
 MonoBehaviour:
